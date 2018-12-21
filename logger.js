@@ -14,6 +14,6 @@ module.exports = function(req,res,next){
   let method = req.method;
   let ip = req.ip;
   let path = req.path;
-  console.log(`[${ip}]  <([${day}/${month}/${year}] [${hours}:${minutes}:${seconds}] [${weekday}])>  {${method} => "${path}""}`);
+  console.log(`[${ip}]  <([${day}/${month}/${year}] [${hours}:${minutes}:${seconds}] [${weekday}])>  {${method} => "${path}"}`);
   next();
 }
