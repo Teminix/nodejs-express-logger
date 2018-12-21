@@ -2,9 +2,7 @@
 A simple logger middleware for nodeJS express Framework API
 
 ## Setup:
-Execute the following in your command line utility to clone/download the logger
-```
-```
+Download the logger.js and file and place in the desired directory and note down the path since you would require it.
 ## Dependecies:
 For this module to work, the following are required:
 * `node`
