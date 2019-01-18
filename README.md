@@ -1,5 +1,5 @@
 # nodejs-express-logger
-A simple logger middleware for nodeJS express Framework API
+A simple logger middleware for nodeJS express Framework API.
 
 ## Setup:
 Download the logger.js and file, place in the desired directory and note down the path since you would require it.
@@ -23,7 +23,7 @@ app.get('/',function(req,res){
 app.listen(8080,'0.0.0.0');
 ```
 
-You can check you console everytime a request is made, it is logged with the following format(`$` is dynamic and variable name):
+You can check your console everytime a request is made, it is logged with the following format(`$` is dynamic and variable name):
 ```
 [$IP address]  <([$Date] [$time] [$weekday])>  {$request method => $request path}
 ```
